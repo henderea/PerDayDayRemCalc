@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D91F11814FBCBC000C51A4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D91F11714FBCBC000C51A4B /* UIKit.framework */; };
+		9D91F11A14FBCBC000C51A4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D91F11914FBCBC000C51A4B /* Foundation.framework */; };
+		9D91F11C14FBCBC000C51A4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D91F11B14FBCBC000C51A4B /* CoreGraphics.framework */; };
+		9D91F12214FBCBC000C51A4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D91F12014FBCBC000C51A4B /* InfoPlist.strings */; };
+		9D91F12414FBCBC000C51A4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D91F12314FBCBC000C51A4B /* main.m */; };
+		9D91F12814FBCBC000C51A4B /* PerDayDayRemCalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D91F12714FBCBC000C51A4B /* PerDayDayRemCalcAppDelegate.m */; };
+		9D91F12B14FBCBC000C51A4B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D91F12914FBCBC000C51A4B /* MainStoryboard.storyboard */; };
+		9D91F12E14FBCBC000C51A4B /* PerDayDayRemCalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D91F12D14FBCBC000C51A4B /* PerDayDayRemCalcViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D91F11314FBCBC000C51A4B /* PerDayDayRemCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerDayDayRemCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D91F11714FBCBC000C51A4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D91F11914FBCBC000C51A4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D91F11B14FBCBC000C51A4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D91F11F14FBCBC000C51A4B /* PerDayDayRemCalc-Info.plist */ = {isa = PBXFileReference; path = "PerDayDayRemCalc-Info.plist"; sourceTree = "<group>"; };
+		9D91F12114FBCBC000C51A4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D91F12314FBCBC000C51A4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D91F12514FBCBC000C51A4B /* PerDayDayRemCalc-Prefix.pch */ = {isa = PBXFileReference; path = "PerDayDayRemCalc-Prefix.pch"; sourceTree = "<group>"; };
+		9D91F12614FBCBC000C51A4B /* PerDayDayRemCalcAppDelegate.h */ = {isa = PBXFileReference; path = PerDayDayRemCalcAppDelegate.h; sourceTree = "<group>"; };
+		9D91F12714FBCBC000C51A4B /* PerDayDayRemCalcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerDayDayRemCalcAppDelegate.m; sourceTree = "<group>"; };
+		9D91F12A14FBCBC000C51A4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9D91F12C14FBCBC000C51A4B /* PerDayDayRemCalcViewController.h */ = {isa = PBXFileReference; path = PerDayDayRemCalcViewController.h; sourceTree = "<group>"; };
+		9D91F12D14FBCBC000C51A4B /* PerDayDayRemCalcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerDayDayRemCalcViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D91F11014FBCBC000C51A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D91F11814FBCBC000C51A4B /* UIKit.framework in Frameworks */,
+				9D91F11A14FBCBC000C51A4B /* Foundation.framework in Frameworks */,
+				9D91F11C14FBCBC000C51A4B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D91F10814FBCBC000C51A4B = {
+			isa = PBXGroup;
+			children = (
+				9D91F11D14FBCBC000C51A4B /* PerDayDayRemCalc */,
+				9D91F11614FBCBC000C51A4B /* Frameworks */,
+				9D91F11414FBCBC000C51A4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D91F11414FBCBC000C51A4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D91F11314FBCBC000C51A4B /* PerDayDayRemCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D91F11614FBCBC000C51A4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D91F11714FBCBC000C51A4B /* UIKit.framework */,
+				9D91F11914FBCBC000C51A4B /* Foundation.framework */,
+				9D91F11B14FBCBC000C51A4B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D91F11D14FBCBC000C51A4B /* PerDayDayRemCalc */ = {
+			isa = PBXGroup;
+			children = (
+				9D91F12614FBCBC000C51A4B /* PerDayDayRemCalcAppDelegate.h */,
+				9D91F12714FBCBC000C51A4B /* PerDayDayRemCalcAppDelegate.m */,
+				9D91F12914FBCBC000C51A4B /* MainStoryboard.storyboard */,
+				9D91F12C14FBCBC000C51A4B /* PerDayDayRemCalcViewController.h */,
+				9D91F12D14FBCBC000C51A4B /* PerDayDayRemCalcViewController.m */,
+				9D91F11E14FBCBC000C51A4B /* Supporting Files */,
+			);
+			path = PerDayDayRemCalc;
+			sourceTree = "<group>";
+		};
+		9D91F11E14FBCBC000C51A4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D91F11F14FBCBC000C51A4B /* PerDayDayRemCalc-Info.plist */,
+				9D91F12014FBCBC000C51A4B /* InfoPlist.strings */,
+				9D91F12314FBCBC000C51A4B /* main.m */,
+				9D91F12514FBCBC000C51A4B /* PerDayDayRemCalc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D91F11214FBCBC000C51A4B /* PerDayDayRemCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D91F13114FBCBC000C51A4B /* Build configuration list for PBXNativeTarget "PerDayDayRemCalc" */;
+			buildPhases = (
+				9D91F10F14FBCBC000C51A4B /* Sources */,
+				9D91F11014FBCBC000C51A4B /* Frameworks */,
+				9D91F11114FBCBC000C51A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerDayDayRemCalc;
+			productName = PerDayDayRemCalc;
+			productReference = 9D91F11314FBCBC000C51A4B /* PerDayDayRemCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D91F10A14FBCBC000C51A4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9D91F10D14FBCBC000C51A4B /* Build configuration list for PBXProject "PerDayDayRemCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D91F10814FBCBC000C51A4B;
+			productRefGroup = 9D91F11414FBCBC000C51A4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D91F11214FBCBC000C51A4B /* PerDayDayRemCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D91F11114FBCBC000C51A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D91F12214FBCBC000C51A4B /* InfoPlist.strings in Resources */,
+				9D91F12B14FBCBC000C51A4B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D91F10F14FBCBC000C51A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D91F12414FBCBC000C51A4B /* main.m in Sources */,
+				9D91F12814FBCBC000C51A4B /* PerDayDayRemCalcAppDelegate.m in Sources */,
+				9D91F12E14FBCBC000C51A4B /* PerDayDayRemCalcViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D91F12014FBCBC000C51A4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D91F12114FBCBC000C51A4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D91F12914FBCBC000C51A4B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D91F12A14FBCBC000C51A4B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D91F12F14FBCBC000C51A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D91F13014FBCBC000C51A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D91F13214FBCBC000C51A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PerDayDayRemCalc/PerDayDayRemCalc-Prefix.pch";
+				INFOPLIST_FILE = "PerDayDayRemCalc/PerDayDayRemCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D91F13314FBCBC000C51A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PerDayDayRemCalc/PerDayDayRemCalc-Prefix.pch";
+				INFOPLIST_FILE = "PerDayDayRemCalc/PerDayDayRemCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D91F10D14FBCBC000C51A4B /* Build configuration list for PBXProject "PerDayDayRemCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D91F12F14FBCBC000C51A4B /* Debug */,
+				9D91F13014FBCBC000C51A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D91F13114FBCBC000C51A4B /* Build configuration list for PBXNativeTarget "PerDayDayRemCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D91F13214FBCBC000C51A4B /* Debug */,
+				9D91F13314FBCBC000C51A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D91F10A14FBCBC000C51A4B /* Project object */;
+}
