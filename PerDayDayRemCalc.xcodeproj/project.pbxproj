@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D5912EF14FBD024006326EB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5912EE14FBD024006326EB /* CoreData.framework */; };
+		9D5912F314FBD04D006326EB /* PerDayDayRemCalc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D5912F114FBD04D006326EB /* PerDayDayRemCalc.xcdatamodeld */; };
+		9D5912F614FBD1B4006326EB /* Series.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5912F514FBD1B4006326EB /* Series.m */; };
+		9D5912F914FBD1D2006326EB /* StartDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5912F814FBD1D2006326EB /* StartDate.m */; };
 		9D91F11814FBCBC000C51A4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D91F11714FBCBC000C51A4B /* UIKit.framework */; };
 		9D91F11A14FBCBC000C51A4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D91F11914FBCBC000C51A4B /* Foundation.framework */; };
 		9D91F11C14FBCBC000C51A4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D91F11B14FBCBC000C51A4B /* CoreGraphics.framework */; };
@@ -15,22 +19,31 @@
 		9D91F12814FBCBC000C51A4B /* PerDayDayRemCalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D91F12714FBCBC000C51A4B /* PerDayDayRemCalcAppDelegate.m */; };
 		9D91F12B14FBCBC000C51A4B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D91F12914FBCBC000C51A4B /* MainStoryboard.storyboard */; };
 		9D91F12E14FBCBC000C51A4B /* PerDayDayRemCalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D91F12D14FBCBC000C51A4B /* PerDayDayRemCalcViewController.m */; };
+		9D9EC347150246D3007D8252 /* SeriesEpisodesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9EC346150246D3007D8252 /* SeriesEpisodesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D5912EE14FBD024006326EB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9D5912F214FBD04D006326EB /* PerDayDayRemCalc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PerDayDayRemCalc.xcdatamodel; sourceTree = "<group>"; };
+		9D5912F414FBD1B4006326EB /* Series.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Series.h; sourceTree = "<group>"; };
+		9D5912F514FBD1B4006326EB /* Series.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Series.m; sourceTree = "<group>"; };
+		9D5912F714FBD1D2006326EB /* StartDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartDate.h; sourceTree = "<group>"; };
+		9D5912F814FBD1D2006326EB /* StartDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartDate.m; sourceTree = "<group>"; };
 		9D91F11314FBCBC000C51A4B /* PerDayDayRemCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerDayDayRemCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D91F11714FBCBC000C51A4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9D91F11914FBCBC000C51A4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9D91F11B14FBCBC000C51A4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9D91F11F14FBCBC000C51A4B /* PerDayDayRemCalc-Info.plist */ = {isa = PBXFileReference; path = "PerDayDayRemCalc-Info.plist"; sourceTree = "<group>"; };
+		9D91F11F14FBCBC000C51A4B /* PerDayDayRemCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PerDayDayRemCalc-Info.plist"; sourceTree = "<group>"; };
 		9D91F12114FBCBC000C51A4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9D91F12314FBCBC000C51A4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9D91F12514FBCBC000C51A4B /* PerDayDayRemCalc-Prefix.pch */ = {isa = PBXFileReference; path = "PerDayDayRemCalc-Prefix.pch"; sourceTree = "<group>"; };
-		9D91F12614FBCBC000C51A4B /* PerDayDayRemCalcAppDelegate.h */ = {isa = PBXFileReference; path = PerDayDayRemCalcAppDelegate.h; sourceTree = "<group>"; };
+		9D91F12514FBCBC000C51A4B /* PerDayDayRemCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PerDayDayRemCalc-Prefix.pch"; sourceTree = "<group>"; };
+		9D91F12614FBCBC000C51A4B /* PerDayDayRemCalcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerDayDayRemCalcAppDelegate.h; sourceTree = "<group>"; };
 		9D91F12714FBCBC000C51A4B /* PerDayDayRemCalcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerDayDayRemCalcAppDelegate.m; sourceTree = "<group>"; };
 		9D91F12A14FBCBC000C51A4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		9D91F12C14FBCBC000C51A4B /* PerDayDayRemCalcViewController.h */ = {isa = PBXFileReference; path = PerDayDayRemCalcViewController.h; sourceTree = "<group>"; };
+		9D91F12C14FBCBC000C51A4B /* PerDayDayRemCalcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerDayDayRemCalcViewController.h; sourceTree = "<group>"; };
 		9D91F12D14FBCBC000C51A4B /* PerDayDayRemCalcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerDayDayRemCalcViewController.m; sourceTree = "<group>"; };
+		9D9EC345150246D3007D8252 /* SeriesEpisodesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeriesEpisodesViewController.h; sourceTree = "<group>"; };
+		9D9EC346150246D3007D8252 /* SeriesEpisodesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeriesEpisodesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5912EF14FBD024006326EB /* CoreData.framework in Frameworks */,
 				9D91F11814FBCBC000C51A4B /* UIKit.framework in Frameworks */,
 				9D91F11A14FBCBC000C51A4B /* Foundation.framework in Frameworks */,
 				9D91F11C14FBCBC000C51A4B /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +81,7 @@
 		9D91F11614FBCBC000C51A4B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D5912EE14FBD024006326EB /* CoreData.framework */,
 				9D91F11714FBCBC000C51A4B /* UIKit.framework */,
 				9D91F11914FBCBC000C51A4B /* Foundation.framework */,
 				9D91F11B14FBCBC000C51A4B /* CoreGraphics.framework */,
@@ -77,11 +92,18 @@
 		9D91F11D14FBCBC000C51A4B /* PerDayDayRemCalc */ = {
 			isa = PBXGroup;
 			children = (
+				9D91F12914FBCBC000C51A4B /* MainStoryboard.storyboard */,
+				9D5912F114FBD04D006326EB /* PerDayDayRemCalc.xcdatamodeld */,
 				9D91F12614FBCBC000C51A4B /* PerDayDayRemCalcAppDelegate.h */,
 				9D91F12714FBCBC000C51A4B /* PerDayDayRemCalcAppDelegate.m */,
-				9D91F12914FBCBC000C51A4B /* MainStoryboard.storyboard */,
 				9D91F12C14FBCBC000C51A4B /* PerDayDayRemCalcViewController.h */,
 				9D91F12D14FBCBC000C51A4B /* PerDayDayRemCalcViewController.m */,
+				9D5912F414FBD1B4006326EB /* Series.h */,
+				9D5912F514FBD1B4006326EB /* Series.m */,
+				9D9EC345150246D3007D8252 /* SeriesEpisodesViewController.h */,
+				9D9EC346150246D3007D8252 /* SeriesEpisodesViewController.m */,
+				9D5912F714FBD1D2006326EB /* StartDate.h */,
+				9D5912F814FBD1D2006326EB /* StartDate.m */,
 				9D91F11E14FBCBC000C51A4B /* Supporting Files */,
 			);
 			path = PerDayDayRemCalc;
@@ -163,6 +185,10 @@
 				9D91F12414FBCBC000C51A4B /* main.m in Sources */,
 				9D91F12814FBCBC000C51A4B /* PerDayDayRemCalcAppDelegate.m in Sources */,
 				9D91F12E14FBCBC000C51A4B /* PerDayDayRemCalcViewController.m in Sources */,
+				9D5912F314FBD04D006326EB /* PerDayDayRemCalc.xcdatamodeld in Sources */,
+				9D5912F614FBD1B4006326EB /* Series.m in Sources */,
+				9D5912F914FBD1D2006326EB /* StartDate.m in Sources */,
+				9D9EC347150246D3007D8252 /* SeriesEpisodesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +265,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PerDayDayRemCalc/PerDayDayRemCalc-Prefix.pch";
 				INFOPLIST_FILE = "PerDayDayRemCalc/PerDayDayRemCalc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -250,6 +277,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PerDayDayRemCalc/PerDayDayRemCalc-Prefix.pch";
 				INFOPLIST_FILE = "PerDayDayRemCalc/PerDayDayRemCalc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,8 +302,22 @@
 				9D91F13314FBCBC000C51A4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9D5912F114FBD04D006326EB /* PerDayDayRemCalc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9D5912F214FBD04D006326EB /* PerDayDayRemCalc.xcdatamodel */,
+			);
+			currentVersion = 9D5912F214FBD04D006326EB /* PerDayDayRemCalc.xcdatamodel */;
+			path = PerDayDayRemCalc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9D91F10A14FBCBC000C51A4B /* Project object */;
 }
