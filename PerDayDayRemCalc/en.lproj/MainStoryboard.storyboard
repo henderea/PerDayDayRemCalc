@@ -201,7 +201,11 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Episodes/Series" id="pCB-sP-00E">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="VzR-la-Ogu"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="VzR-la-Ogu">
+                            <connections>
+                                <segue destination="toe-SA-Jj3" kind="push" identifier="NewToEdit" id="SiV-3f-dfm"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
             </objects>
@@ -210,7 +214,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <scene sceneID="fRU-k0-vrY">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V2I-s6-SAf" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="toe-SA-Jj3" sceneMemberID="viewController">
+                <viewController id="toe-SA-Jj3" customClass="EditEntryViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pxd-WB-NIx">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -245,6 +249,10 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Edit Entry" id="yoa-17-09s"/>
+                    <connections>
+                        <outlet property="nameField" destination="Ibw-rF-Xzb" id="hOe-cJ-Pdx"/>
+                        <outlet property="numField" destination="DEO-FZ-Jtc" id="ZVK-El-Q1E"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1146" y="-76"/>
@@ -268,6 +276,13 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         </scene>
     </scenes>
     <classes>
+        <class className="EditEntryViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/EditEntryViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="nameField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="numField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
         <class className="PerDayDayRemCalcViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PerDayDayRemCalcViewController.h"/>
             <relationships>
@@ -286,4 +301,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="SiV-3f-dfm"/>
+    </inferredMetricsTieBreakers>
 </document>

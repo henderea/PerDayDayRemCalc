@@ -20,6 +20,7 @@
 		9D91F12B14FBCBC000C51A4B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D91F12914FBCBC000C51A4B /* MainStoryboard.storyboard */; };
 		9D91F12E14FBCBC000C51A4B /* PerDayDayRemCalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D91F12D14FBCBC000C51A4B /* PerDayDayRemCalcViewController.m */; };
 		9D9EC347150246D3007D8252 /* SeriesEpisodesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9EC346150246D3007D8252 /* SeriesEpisodesViewController.m */; };
+		9D9EC34F150258C9007D8252 /* EditEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9EC34E150258C9007D8252 /* EditEntryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		9D91F12D14FBCBC000C51A4B /* PerDayDayRemCalcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerDayDayRemCalcViewController.m; sourceTree = "<group>"; };
 		9D9EC345150246D3007D8252 /* SeriesEpisodesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeriesEpisodesViewController.h; sourceTree = "<group>"; };
 		9D9EC346150246D3007D8252 /* SeriesEpisodesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeriesEpisodesViewController.m; sourceTree = "<group>"; };
+		9D9EC34D150258C9007D8252 /* EditEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditEntryViewController.h; sourceTree = "<group>"; };
+		9D9EC34E150258C9007D8252 /* EditEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditEntryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 		9D91F11D14FBCBC000C51A4B /* PerDayDayRemCalc */ = {
 			isa = PBXGroup;
 			children = (
+				9D9EC34D150258C9007D8252 /* EditEntryViewController.h */,
+				9D9EC34E150258C9007D8252 /* EditEntryViewController.m */,
 				9D91F12914FBCBC000C51A4B /* MainStoryboard.storyboard */,
 				9D5912F114FBD04D006326EB /* PerDayDayRemCalc.xcdatamodeld */,
 				9D91F12614FBCBC000C51A4B /* PerDayDayRemCalcAppDelegate.h */,
@@ -189,6 +194,7 @@
 				9D5912F614FBD1B4006326EB /* Series.m in Sources */,
 				9D5912F914FBD1D2006326EB /* StartDate.m in Sources */,
 				9D9EC347150246D3007D8252 /* SeriesEpisodesViewController.m in Sources */,
+				9D9EC34F150258C9007D8252 /* EditEntryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
